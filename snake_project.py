@@ -95,9 +95,9 @@ game = True
 clock = time.Clock()
 fps = 60
 
-sprite_player = player('snake.png', 6, window_x / 2, window_y / 2)
-sprite_apple = apple('apple.png', 0, randint(1, window_x - 40), randint(1, window_y - 40) )
-sprite_enemy = enemy('enemy.jpg', 4.3, 30, 30)
+sprite_player = player('img/snake.png', 6, window_x / 2, window_y / 2)
+sprite_apple = apple('img/apple.png', 0, randint(1, window_x - 40), randint(1, window_y - 40) )
+sprite_enemy = enemy('img/enemy.jpg', 4.3, 30, 30)
 
 wall_1 = wall(0,0,0, 10,100, 100, 100)
 
